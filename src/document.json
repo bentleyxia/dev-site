@@ -1,24 +1,127 @@
 [
   {
+    "title": "C/C++",
+    "website": "http://en.cppreference.com/w/",
+    "des": "Linux man pages online",
+    "logo": "",
+    "urls": {},
+    "tags": [
+      "Programming Language",
+      "Cheatsheet"
+    ]
+  },
+  {
+    "title": "Linux Man page",
+    "website": "https://man7.org/linux/man-pages/index.html",
+    "des": "C/C++",
+    "logo": "icons/c++.svg",
+    "urls": {
+      "cn": "http://zh.cppreference.com/w/",
+      "another": "http://www.cplusplus.com/"
+    },
+    "tags": [
+      "Programming Language"
+    ]
+  },
+  {
+    "title": "Boost",
+    "website": "https://www.boost.org/doc/libs/",
+    "des": "C/C++",
+    "logo": "icons/boost.ico",
+    "urls": {},
+    "tags": [
+      "Libraries"
+    ]
+  },
+  {
+    "title": "JAVA",
+    "website": "https://docs.oracle.com/en/java/javase/11/",
+    "des": "Java programming language",
+    "logo": "icons/java.svg",
+    "urls": {
+      "cn": "http://www.oracle.com/technetwork/cn/java/index.html"
+    },
+    "tags": [
+      "服务端",
+      "Backend",
+      "Programming Language"
+    ]
+  },
+  {
+    "title": "Scala",
+    "website": "https://scala-lang.org/api/3.x/",
+    "des": "JVM language",
+    "logo": "icons/scala.ico",
+    "urls": {
+      "overview": "https://docs.scala-lang.org/scala3/reference/overview.html"
+    },
+    "tags": [
+      "Programming Language"
+    ]
+  },
+  {
+    "title": "Rust",
+    "website": "https://www.rust-lang.org",
+    "des": "A language empowering everyone to build reliable and efficient software.",
+    "logo": "icons/rust.svg",
+    "urls": {
+      "git": "https://github1s.com/rust-lang/rust",
+      "cn": "https://www.rust-lang.org/zh-CN/"
+    },
+    "tags": [
+      "服务端",
+      "Backend"
+    ]
+  },
+  {
+    "title": "Go",
+    "website": "https://golang.org/",
+    "des": "Build fast, reliable, and efficient software at scale",
+    "logo": "icons/gopher.svg",
+    "urls": {
+      "git": "https://github1s.com/golang/go"
+    },
+    "tags": [
+      "服务端",
+      "Backend",
+      "Programming Language"
+    ]
+  },
+  {
+    "title": "Learn X in Y minutes",
+    "website": "https://learnxinyminutes.com/",
+    "des": "Take a whirlwind tour of your next favorite language. Community-driven!",
+    "urls": {
+      "git": "https://github1s.com/adambard/learnxinyminutes-docs"
+    },
+    "tags": [
+      "Tools",
+      "Cheatsheet"
+    ]
+  },
+  {
+    "title": "Cmake",
+    "website": "https://cmake.org/cmake/help/latest/",
+    "des": "CMake is a tool to manage building of source code",
+    "logo": "icons/cmake.ico",
+    "urls": {},
+    "tags": [
+      "Programming Language"
+    ]
+  },
+  {
     "title": "Node.js",
     "website": "https://nodejs.org/en/",
     "des": "是一个基于 Chrome V8 引擎的 JavaScript 运行环境。",
     "logo": "icons/node-logo.svg",
     "urls": {
       "cn": "http://nodejs.cn/",
-      "git": "https://github.com/nodejs/node"
+      "git": "https://github1s.com/nodejs/node"
     },
-    "tags": [ "服务端", "后端" ]
-  },
-  {
-    "title": "Go",
-    "website": "https://golang.org/",
-    "des": "一种开源编程语言，可以轻松构建简单，可靠和高效的软件。",
-    "logo": "icons/gopher.svg",
-    "urls": {
-      "git": "https://github.com/golang/go"
-    },
-    "tags": [ "服务端", "后端", "编程语言" ]
+    "tags": [
+      "服务端",
+      "Backend"
+    ]
   },
   {
     "title": "Kotlin",
@@ -26,11 +129,67 @@
     "des": "Statically typed programming language for modern multiplatform applications",
     "logo": "icons/kotlin.svg",
     "urls": {
-      "git": "https://github.com/JetBrains/kotlin",
+      "git": "https://github1s.com/JetBrains/kotlin",
       "cn": "https://www.kotlincn.net/",
       "try": "https://try.kotlinlang.org/"
     },
-    "tags": [ "服务端", "前端", "Android" ]
+    "tags": [
+      "服务端",
+      "Frontend",
+      "Android"
+    ]
+  },
+  {
+    "title": "gflags",
+    "website": "https://gflags.github.io/gflags/",
+    "des": "GoogleTest is Google’s C++ testing and mocking framework",
+    "logo": "icons/libuv.png",
+    "urls": {
+      "git": "https://github1s.com/gflags/gflags.git",
+      "doc": "https://gflags.github.io/gflags/"
+    },
+    "tags": [
+      "Libraries"
+    ]
+  },
+  {
+    "title": "gtest",
+    "website": "https://google.github.io/googletest/",
+    "des": "GoogleTest is Google’s C++ testing and mocking framework",
+    "logo": "icons/libuv.png",
+    "urls": {
+      "git": "https://github1s.com/google/googletest.git",
+      "doc": "https://google.github.io/googletest/"
+    },
+    "tags": [
+      "Libraries"
+    ]
+  },
+  {
+    "title": "glog",
+    "website": "https://github.com/google/glog.git",
+    "des": "Google Logging (glog) is a C++98 library that implements application-level logging. ",
+    "logo": "icons/libuv.png",
+    "urls": {
+      "git": "https://github1s.com/google/glog.git",
+      "doc": "https://github.com/google/glog.git"
+    },
+    "tags": [
+      "Libraries"
+    ]
+  },
+  {
+    "title": "spdlog",
+    "website": "https://spdlog.docsforge.com/",
+    "des": "Very fast, header-only/compiled, C++ logging library. ",
+    "logo": "icons/libuv.png",
+    "urls": {
+      "git": "https://github1s.com/gabime/spdlog.git",
+      "doc": "https://spdlog.docsforge.com/"
+    },
+    "tags": [
+      "Libraries"
+    ]
   },
   {
     "title": "libuv",
@@ -38,22 +197,13 @@
     "des": "多平台支持库，专注于异步I/O。",
     "logo": "icons/libuv.png",
     "urls": {
-      "git": "https://github.com/libuv/libuv",
-      "cn": "http://luohaha.github.io/Chinese-uvbook/",
-      "doc":"http://docs.libuv.org/en/v1.x/#documentation"
+      "git": "https://github1s.com/libuv/libuv",
+      "cn": "http://luohaha.github1s.io/Chinese-uvbook/",
+      "doc": "http://docs.libuv.org/en/v1.x/#documentation"
     },
-    "tags": [ "工具库", "后端", "libuv" ]
-  },
-  {
-    "title": "C/C++",
-    "website": "http://en.cppreference.com/w/",
-    "des": "C/C++",
-    "logo": "icons/c++.svg",
-    "urls": {
-      "cn": "http://zh.cppreference.com/w/",
-      "another":"http://www.cplusplus.com/"
-    },
-    "tags": [ "编程语言" ]
+    "tags": [
+      "Libraries"
+    ]
   },
   {
     "title": "Cocos",
@@ -62,29 +212,12 @@
     "logo": "icons/cocos2d.png",
     "urls": {
       "cn": "http://www.cocos.com/",
-      "git": "https://github.com/cocos2d/cocos2d-x"
+      "git": "https://github1s.com/cocos2d/cocos2d-x"
     },
-    "tags": [ "cocos", "前端" ]
-  },
-  {
-    "title": "Learn X in Y minutes",
-    "website": "https://learnxinyminutes.com/",
-    "des": "快速浏览你的下一个最喜欢的语言。",
-    "urls": {
-      "git": "https://github.com/adambard/learnxinyminutes-docs"
-    },
-    "tags": [ "工具库" ]
-  },
-  {
-    "title": "Rust",
-    "website": "https://www.rust-lang.org",
-    "des": "一种系统编程语言。",
-    "logo": "icons/rust.svg",
-    "urls": {
-      "git": "https://github.com/rust-lang/rust",
-      "cn": "https://www.rust-lang.org/zh-CN/"
-    },
-    "tags": [ "服务端", "后端" ]
+    "tags": [
+      "cocos",
+      "Frontend"
+    ]
   },
   {
     "title": "PHP",
@@ -94,7 +227,10 @@
     "urls": {
       "cn": "http://php.net/manual/zh/"
     },
-    "tags": [ "服务端", "后端" ]
+    "tags": [
+      "服务端",
+      "Backend"
+    ]
   },
   {
     "title": "Ruby",
@@ -102,10 +238,13 @@
     "des": "一种简单快捷的面向对象（面向对象程序设计）脚本语言。",
     "logo": "icons/ruby.svg",
     "urls": {
-      "git": "https://github.com/ruby/ruby",
+      "git": "https://github1s.com/ruby/ruby",
       "cn": "https://www.ruby-lang.org/zh_cn/"
     },
-    "tags": [ "服务端", "后端" ]
+    "tags": [
+      "服务端",
+      "Backend"
+    ]
   },
   {
     "title": "Python",
@@ -115,29 +254,27 @@
     "urls": {
       "cn": "http://python.usyiyi.cn/translate/python_352/index.html"
     },
-    "tags": [ "服务端", "后端", "编程语言" ]
+    "tags": [
+      "服务端",
+      "Backend",
+      "Programming Language"
+    ]
   },
   {
     "title": "Swift",
     "website": "https://swift.org/",
-    "des": "是一种新的编程语言，用于编写 iOS 和 macOS 应用。",
+    "des": "是一种新的Programming Language，用于编写 iOS 和 macOS 应用。",
     "logo": "icons/swift.svg",
     "urls": {
-      "git": "https://github.com/apple/swift",
+      "git": "https://github1s.com/apple/swift",
       "cn": "http://swiftguide.cn/",
       "community": "https://www.apple.com/cn/swift/"
     },
-    "tags": [ "服务端", "后端", "编程语言" ]
-  },
-  {
-    "title": "JAVA",
-    "website": "https://docs.oracle.com/javase/8/docs/",
-    "des": "是一门面向对象编程语言。",
-    "logo": "icons/java.svg",
-    "urls": {
-      "cn": "http://www.oracle.com/technetwork/cn/java/index.html"
-    },
-    "tags": [ "服务端", "后端", "编程语言" ]
+    "tags": [
+      "服务端",
+      "Backend",
+      "Programming Language"
+    ]
   },
   {
     "title": ".NET",
@@ -147,29 +284,40 @@
     "urls": {
       "cn": "https://docs.microsoft.com/zh-cn/dotnet/welcome"
     },
-    "tags": [ "服务端", "后端" ]
+    "tags": [
+      "服务端",
+      "Backend"
+    ]
   },
   {
     "title": "JavaScript",
     "website": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-    "des": "是一种轻量级解释或JIT编译型的编程语言。",
+    "des": "是一种轻量级解释或JIT编译型的Programming Language。",
     "logo": "icons/javascript.svg",
     "urls": {
       "cn": "https://developer.mozilla.org/zh-CN/docs/Web/JavaScript",
       "es6": "http://es6.ruanyifeng.com/"
     },
-    "tags": [ "前端", "编程语言", "JavaScript" ]
+    "tags": [
+      "Frontend",
+      "Programming Language",
+      "JavaScript"
+    ]
   },
   {
     "title": "30 秒 JavaScript",
     "website": "https://www.30secondsofcode.org/js/p/1",
-    "des": "是一种轻量级解释或JIT编译型的编程语言。",
+    "des": "是一种轻量级解释或JIT编译型的Programming Language。",
     "logo": "icons/javascript.svg",
     "urls": {
       "cn": "https://www.html.cn/30-seconds-of-code/",
-      "git": "https://github.com/30-seconds/30-seconds-of-code"
+      "git": "https://github1s.com/30-seconds/30-seconds-of-code"
     },
-    "tags": [ "前端", "编程语言", "JavaScript" ]
+    "tags": [
+      "Frontend",
+      "Programming Language",
+      "JavaScript"
+    ]
   },
   {
     "title": "W3C",
@@ -179,7 +327,10 @@
     "urls": {
       "cn": "http://www.chinaw3c.org/"
     },
-    "tags": [ "前端", "CSS" ]
+    "tags": [
+      "Frontend",
+      "CSS"
+    ]
   },
   {
     "title": "30 秒 CSS",
@@ -188,9 +339,12 @@
     "logo": "icons/css-3.svg",
     "urls": {
       "cn": "http://caibaojian.com/30-seconds-of-css/",
-      "git": "https://github.com/atomiks/30-seconds-of-css"
+      "git": "https://github1s.com/atomiks/30-seconds-of-css"
     },
-    "tags": [ "前端", "CSS" ]
+    "tags": [
+      "Frontend",
+      "CSS"
+    ]
   },
   {
     "title": "Babel",
@@ -199,9 +353,12 @@
     "logo": "icons/babel-logo.svg",
     "urls": {
       "cn": "https://babel.docschina.org/",
-      "git": "https://github.com/babel/babel"
+      "git": "https://github1s.com/babel/babel"
     },
-    "tags": [ "编译器", "前端" ]
+    "tags": [
+      "编译器",
+      "Frontend"
+    ]
   },
   {
     "title": "TypeScript",
@@ -210,9 +367,12 @@
     "logo": "icons/typescript-icon.svg",
     "urls": {
       "cn": "https://www.tslang.cn/",
-      "git": "https://github.com/Microsoft/TypeScript"
+      "git": "https://github1s.com/Microsoft/TypeScript"
     },
-    "tags": [ "编译器", "前端" ]
+    "tags": [
+      "编译器",
+      "Frontend"
+    ]
   },
   {
     "title": "CoffeeScript",
@@ -221,21 +381,27 @@
     "logo": "icons/coffeescript.svg",
     "urls": {
       "cn": "http://coffee-script.org/",
-      "git": "https://github.com/jashkenas/coffeescript"
+      "git": "https://github1s.com/jashkenas/coffeescript"
     },
-    "tags": [ "编译器", "前端" ]
+    "tags": [
+      "编译器",
+      "Frontend"
+    ]
   },
   {
     "title": "Webpack",
     "website": "https://webpack.js.org/",
-    "des": "前端资源打包工具",
+    "des": "Frontend资源打包工具",
     "logo": "icons/webpack-logo.svg",
     "urls": {
       "cn1": "https://www.webpackjs.com/",
       "cn2": "https://doc.webpack-china.org/",
-      "git": "https://github.com/webpack/webpack"
+      "git": "https://github1s.com/webpack/webpack"
     },
-    "tags": [ "构建工具", "前端" ]
+    "tags": [
+      "构建工具",
+      "Frontend"
+    ]
   },
   {
     "title": "Parcel",
@@ -244,20 +410,26 @@
     "logo": "icons/parcel.svg",
     "urls": {
       "cn": "https://zh.parceljs.org/",
-      "git": "https://github.com/parcel-bundler/parcel"
+      "git": "https://github1s.com/parcel-bundler/parcel"
     },
-    "tags": [ "构建工具", "前端" ]
+    "tags": [
+      "构建工具",
+      "Frontend"
+    ]
   },
   {
     "title": "Rollup",
     "website": "http://rollupjs.org",
-    "des": "前端资源打包工具",
+    "des": "Frontend资源打包工具",
     "logo": "icons/rollupjs-logo.svg",
     "urls": {
       "cn": "https://rollupjs.cn/",
-      "git": "https://github.com/rollup/rollup"
+      "git": "https://github1s.com/rollup/rollup"
     },
-    "tags": [ "构建工具", "前端" ]
+    "tags": [
+      "构建工具",
+      "Frontend"
+    ]
   },
   {
     "title": "Gulp",
@@ -266,9 +438,12 @@
     "logo": "icons/gulp.svg",
     "urls": {
       "cn": "http://www.gulpjs.com.cn/",
-      "git": "https://github.com/gulpjs/gulp"
+      "git": "https://github1s.com/gulpjs/gulp"
     },
-    "tags": [ "构建工具", "前端" ]
+    "tags": [
+      "构建工具",
+      "Frontend"
+    ]
   },
   {
     "title": "Grunt",
@@ -277,9 +452,12 @@
     "logo": "icons/grunt.svg",
     "urls": {
       "cn": "https://grunt.docschina.org/",
-      "git": "https://github.com/gruntjs/grunt"
+      "git": "https://github1s.com/gruntjs/grunt"
     },
-    "tags": [ "构建工具", "前端" ]
+    "tags": [
+      "构建工具",
+      "Frontend"
+    ]
   },
   {
     "title": "Express",
@@ -288,9 +466,12 @@
     "logo": "icons/express.svg",
     "urls": {
       "cn": "http://www.expressjs.com.cn/",
-      "git": "https://github.com/expressjs/express"
+      "git": "https://github1s.com/expressjs/express"
     },
-    "tags": [ "框架", "后端" ]
+    "tags": [
+      "框架",
+      "Backend"
+    ]
   },
   {
     "title": "Koa",
@@ -299,11 +480,13 @@
     "logo": "icons/koa.png",
     "urls": {
       "cn": "https://koa.bootcss.com/",
-      "cn2": "https://www.koajs.com.cn/",
-      "cn3": "https://github.com/guo-yu/koa-guide",
-      "git": "https://github.com/koajs/koa"
+      "cn2": "https://github1s.com/guo-yu/koa-guide",
+      "git": "https://github1s.com/koajs/koa"
     },
-    "tags": [ "框架", "后端" ]
+    "tags": [
+      "框架",
+      "Backend"
+    ]
   },
   {
     "title": "Egg.js",
@@ -312,10 +495,10 @@
     "logo": "icons/egg-logo.svg",
     "urls": {
       "cn": "https://eggjs.org/zh-cn/intro/",
-      "git": "https://github.com/eggjs/egg/"
+      "git": "https://github1s.com/eggjs/egg/"
     },
     "tags": [
-      "后端"
+      "Backend"
     ]
   },
   {
@@ -324,10 +507,14 @@
     "des": "使用JS和React构建原生移动应用程序",
     "logo": "icons/electron.svg",
     "urls": {
-      "git": "https://github.com/electron",
+      "git": "https://github1s.com/electron",
       "cn": "https://electronjs.org/"
     },
-    "tags": [ "框架", "桌面客户端", "前端" ]
+    "tags": [
+      "框架",
+      "桌面客户端",
+      "Frontend"
+    ]
   },
   {
     "title": "NW.js",
@@ -336,9 +523,13 @@
     "logo": "icons/nwjs-logo.png",
     "urls": {
       "cn": "http://liuxp.me/nwjs/",
-      "git": "https://github.com/nwjs/nw.js"
+      "git": "https://github1s.com/nwjs/nw.js"
     },
-    "tags": [ "框架", "客户端", "前端" ]
+    "tags": [
+      "框架",
+      "客户端",
+      "Frontend"
+    ]
   },
   {
     "title": "ReactiveX",
@@ -346,10 +537,13 @@
     "des": "用于 JavaScript 的 ReactiveX 库。",
     "logo": "icons/reactivex.svg",
     "urls": {
-      "git": "https://github.com/ReactiveX/rxjs",
+      "git": "https://github1s.com/ReactiveX/rxjs",
       "cn": "http://cn.rx.js.org/"
     },
-    "tags": [ "前端", "工具库" ]
+    "tags": [
+      "Frontend",
+      "Tools"
+    ]
   },
   {
     "title": "Next.js(React)",
@@ -358,9 +552,11 @@
     "logo": "icons/next-logo.svg",
     "urls": {
       "cn": "http://nextjs.frontendx.cn",
-      "git": "https://github.com/zeit/next.js"
+      "git": "https://github1s.com/zeit/next.js"
     },
-    "tags": [ "前端" ]
+    "tags": [
+      "Frontend"
+    ]
   },
   {
     "title": "Nuxt.js(Vue)",
@@ -369,20 +565,25 @@
     "logo": "icons/nuxt-logo.svg",
     "urls": {
       "cn": "https://zh.nuxtjs.org/",
-      "git": "https://github.com/nuxt"
+      "git": "https://github1s.com/nuxt"
     },
-    "tags": [ "前端" ]
+    "tags": [
+      "Frontend"
+    ]
   },
   {
     "title": "Nest.js",
     "website": "https://docs.nestjs.com/",
-    "des": "是基于 Express 封装，用于构建高效且可伸缩 Node.js 后端开发框架。",
+    "des": "是基于 Express 封装，用于构建高效且可伸缩 Node.js Backend开发框架。",
     "logo": "icons/nest-logo.svg",
     "urls": {
       "cn": "https://docs.nestjs.cn/",
-      "git": "https://github.com/nestjs/nest"
+      "git": "https://github1s.com/nestjs/nest"
     },
-    "tags": [ "前端", "后端" ]
+    "tags": [
+      "Frontend",
+      "Backend"
+    ]
   },
   {
     "title": "React",
@@ -391,20 +592,28 @@
     "logo": "icons/react-logo.svg",
     "urls": {
       "cn": "https://zh-hans.reactjs.org/",
-      "cn2": "https://react.docschina.org/",
-      "git": "https://github.com/facebook/react/"
+      "cn-doc2": "http://react.css88.com/",
+      "git": "https://github1s.com/facebook/react/"
     },
-    "tags": [ "框架", "React", "前端" ]
+    "tags": [
+      "框架",
+      "React",
+      "Frontend"
+    ]
   },
   {
     "title": "uiw",
-    "website": "https://uiwjs.github.io/",
+    "website": "https://uiwjs.github1s.io/",
     "des": "基于React的UI组件库。",
     "logo": "icons/uiw-react.svg",
     "urls": {
-      "git": "https://github.com/uiwjs/uiw"
+      "git": "https://github1s.com/uiwjs/uiw"
     },
-    "tags": [ "框架", "React", "前端" ]
+    "tags": [
+      "框架",
+      "React",
+      "Frontend"
+    ]
   },
   {
     "title": "Flutter",
@@ -412,10 +621,14 @@
     "des": "一种新型的方式,用于创建高性能、跨平台的移动应用。",
     "logo": "icons/flutter.svg",
     "urls": {
-      "git": "https://github.com/flutter/flutter",
+      "git": "https://github1s.com/flutter/flutter",
       "cn": "https://flutterchina.club/"
     },
-    "tags": [ "框架", "移动端", "前端" ]
+    "tags": [
+      "框架",
+      "移动端",
+      "Frontend"
+    ]
   },
   {
     "title": "Keras",
@@ -424,22 +637,29 @@
     "logo": "icons/keras.svg",
     "urls": {
       "cn": "https://keras.io/zh/",
-      "git": "https://github.com/keras-team/keras"
+      "git": "https://github1s.com/keras-team/keras"
     },
-    "tags": [ "框架", "深度学习" ]
+    "tags": [
+      "框架",
+      "深度学习"
+    ]
   },
   {
     "title": "React Native",
-    "website": "http://facebook.github.io/react-native/",
+    "website": "http://facebook.github1s.io/react-native/",
     "des": "使用JS和React构建原生移动应用程序",
     "logo": "icons/react-logo.svg",
     "urls": {
-      "git": "https://github.com/facebook/react-native",
+      "git": "https://github1s.com/facebook/react-native",
       "cn": "http://rn.wlfcss.com/react-native/",
       "cn2": "https://reactnative.cn",
-      "React Native Directory": "https://reactnative.directory/"
+      "React Native libraries": "https://www.native.directory/"
     },
-    "tags": [ "框架", "React", "前端" ]
+    "tags": [
+      "框架",
+      "React",
+      "Frontend"
+    ]
   },
   {
     "title": "React Router",
@@ -448,20 +668,12 @@
     "logo": "icons/react-route-logo.svg",
     "urls": {
       "cn": "http://reacttraining.cn/",
-      "git": "https://github.com/ReactTraining/react-router"
+      "git": "https://github1s.com/ReactTraining/react-router"
     },
-    "tags": [ "React", "前端" ]
-  },
-  {
-    "title": "Create React App",
-    "website": "https://create-react-app.dev",
-    "des": "通过运行一个命令来设置现代 Web 应用程序。",
-    "logo": "icons/react-logo.svg",
-    "urls": {
-      "cn": "https://www.html.cn/create-react-app/",
-      "git": "https://github.com/facebook/create-react-app"
-    },
-    "tags": [ "React", "前端", "工具库" ]
+    "tags": [
+      "React",
+      "Frontend"
+    ]
   },
   {
     "title": "Redux",
@@ -470,18 +682,13 @@
     "logo": "icons/redux-logo.svg",
     "urls": {
       "cn": "http://cn.redux.js.org/",
-      "git": "https://github.com/reactjs/redux"
+      "git": "https://github1s.com/reactjs/redux"
     },
-    "tags": [ "React", "前端", "redux" ]
-  },
-  {
-    "title": "Ionic",
-    "website": "https://ionicframework.com",
-    "des": "是目前最有潜力的一款 HTML5 手机应用开发框架。",
-    "urls": {
-      "git": "https://github.com/ionic-team/ionic-framework"
-    },
-    "tags": [ "前端" ]
+    "tags": [
+      "React",
+      "Frontend",
+      "redux"
+    ]
   },
   {
     "title": "Rematch",
@@ -492,7 +699,11 @@
       "cn": "https://rematch.gitbook.io/handbook/",
       "git": "https://rematch.gitbooks.io/rematch"
     },
-    "tags": [ "React", "前端", "redux" ]
+    "tags": [
+      "React",
+      "Frontend",
+      "redux"
+    ]
   },
   {
     "title": "redux-saga",
@@ -501,9 +712,13 @@
     "logo": "icons/redux-saga.svg",
     "urls": {
       "cn": "https://redux-saga-in-chinese.js.org/",
-      "git": "https://github.com/redux-saga/redux-saga"
+      "git": "https://github1s.com/redux-saga/redux-saga"
     },
-    "tags": [ "React", "前端", "redux" ]
+    "tags": [
+      "React",
+      "Frontend",
+      "redux"
+    ]
   },
   {
     "title": "MobX",
@@ -512,9 +727,12 @@
     "logo": "icons/mobx.svg",
     "urls": {
       "cn": "http://cn.mobx.js.org/",
-      "git": "https://github.com/mobxjs/mobx"
+      "git": "https://github1s.com/mobxjs/mobx"
     },
-    "tags": [ "React", "前端" ]
+    "tags": [
+      "React",
+      "Frontend"
+    ]
   },
   {
     "title": "Vue",
@@ -523,9 +741,12 @@
     "logo": "icons/vue.svg",
     "urls": {
       "cn": "https://cn.vuejs.org/",
-      "git": "https://github.com/vuejs/vue"
+      "git": "https://github1s.com/vuejs/vue"
     },
-    "tags": [ "框架", "前端" ]
+    "tags": [
+      "框架",
+      "Frontend"
+    ]
   },
   {
     "title": "Angular",
@@ -534,9 +755,12 @@
     "logo": "icons/angular-icon.svg",
     "urls": {
       "cn": "https://angular.cn/",
-      "git": "https://github.com/angular/angular"
+      "git": "https://github1s.com/angular/angular"
     },
-    "tags": [ "框架", "前端" ]
+    "tags": [
+      "框架",
+      "Frontend"
+    ]
   },
   {
     "title": "Backbone.js",
@@ -545,9 +769,12 @@
     "logo": "icons/backbone-icon.svg",
     "urls": {
       "cn": "http://www.css88.com/doc/backbone/",
-      "git": "https://github.com/jashkenas/backbone"
+      "git": "https://github1s.com/jashkenas/backbone"
     },
-    "tags": [ "框架", "前端" ]
+    "tags": [
+      "框架",
+      "Frontend"
+    ]
   },
   {
     "title": "Cycle.js",
@@ -556,9 +783,12 @@
     "logo": "icons/cyclejs.svg",
     "urls": {
       "cn": "http://cyclejs.cn/",
-      "git": "https://github.com/cyclejs/cyclejs"
+      "git": "https://github1s.com/cyclejs/cyclejs"
     },
-    "tags": [ "框架", "前端" ]
+    "tags": [
+      "框架",
+      "Frontend"
+    ]
   },
   {
     "title": "socket.io",
@@ -567,10 +797,13 @@
     "logo": "icons/socket.io.svg",
     "urls": {
       "cn": "http://javacheng.oschina.io/socket.io/",
-      "git": "https://github.com/socketio/socket.io",
+      "git": "https://github1s.com/socketio/socket.io",
       "twitter": "https://twitter.com/SocketIO"
     },
-    "tags": [ "框架", "前端" ]
+    "tags": [
+      "框架",
+      "Frontend"
+    ]
   },
   {
     "title": "EditorConfig",
@@ -580,7 +813,10 @@
     "urls": {
       "cn": "http://editorconfig.org/"
     },
-    "tags": [ "工具库", "前端" ]
+    "tags": [
+      "Tools",
+      "Frontend"
+    ]
   },
   {
     "title": "Semver",
@@ -590,26 +826,32 @@
     "urls": {
       "cn": "https://semver.org/lang/zh-CN/"
     },
-    "tags": [ "工具库" ]
+    "tags": [
+      "Tools"
+    ]
   },
   {
     "title": "JSDoc",
     "website": "http://usejsdoc.org/",
     "des": "根据规范化的注释、自动生成接口文档。",
     "urls": {
-      "git": "https://github.com/jsdoc3/jsdoc",
+      "git": "https://github1s.com/jsdoc3/jsdoc",
       "cn": "http://www.css88.com/doc/jsdoc/index.html"
     },
-    "tags": [ "工具库" ]
+    "tags": [
+      "Tools"
+    ]
   },
   {
     "title": "apiDoc",
     "website": "http://apidocjs.com",
     "des": "生成RESTful Web API文档。",
     "urls": {
-      "git": "https://github.com/apidoc/apidoc"
+      "git": "https://github1s.com/apidoc/apidoc"
     },
-    "tags": [ "工具库" ]
+    "tags": [
+      "Tools"
+    ]
   },
   {
     "title": "Nginx",
@@ -617,10 +859,13 @@
     "des": "是一个高性能的HTTP和反向代理服务器，也是一个IMAP/POP3/SMTP服务器。",
     "logo": "icons/nginx.svg",
     "urls": {
-      "git": "https://github.com/nginx/nginx",
+      "git": "https://github1s.com/nginx/nginx",
       "cn": "http://www.nginx.cn/doc/"
     },
-    "tags": [ "服务端", "后端" ]
+    "tags": [
+      "服务端",
+      "Backend"
+    ]
   },
   {
     "title": "Git",
@@ -629,9 +874,11 @@
     "logo": "icons/git-icon-logo.svg",
     "urls": {
       "cn": "https://git-scm.com/book/zh/v2",
-      "git": "https://github.com/git/git"
+      "git": "https://github1s.com/git/git"
     },
-    "tags": [ "工具库" ]
+    "tags": [
+      "Tools"
+    ]
   },
   {
     "title": "Subversion",
@@ -640,40 +887,49 @@
     "logo": "icons/subversion.svg",
     "urls": {
       "cn": "http://svnbook.red-bean.com/nightly/zh/svn-book.html",
-      "git": "https://github.com/apache/subversion"
+      "git": "https://github1s.com/apache/subversion"
     },
-    "tags": [ "工具库" ]
+    "tags": [
+      "Tools"
+    ]
   },
   {
     "title": "Puppeteer",
-    "website": "https://github.com/GoogleChrome/puppeteer",
+    "website": "https://github1s.com/GoogleChrome/puppeteer",
     "des": "无头Chrome浏览器",
     "logo": "icons/puppeteer.png",
     "urls": {
-      "git": "https://github.com/GoogleChrome/puppeteer"
+      "git": "https://github1s.com/GoogleChrome/puppeteer"
     },
-    "tags": [ "工具库", "测试工具" ]
+    "tags": [
+      "Tools",
+      "测试工具"
+    ]
   },
   {
     "title": "jQuery",
     "website": "https://jquery.com/",
-    "des": "高效精简强大的工具库",
+    "des": "高效精简强大的Tools",
     "logo": "icons/jquery.svg",
     "urls": {
       "cn": "https://www.jquery123.com/",
-      "git": "https://github.com/jquery/jquery"
+      "git": "https://github1s.com/jquery/jquery"
     },
-    "tags": [ "前端" ]
+    "tags": [
+      "Frontend"
+    ]
   },
   {
     "title": "Zepto",
     "website": "http://zeptojs.com",
-    "des": "轻量级的工具库",
+    "des": "轻量级的Tools",
     "logo": "icons/zepto.svg",
     "urls": {
-      "git": "https://github.com/jquery/jquery"
+      "git": "https://github1s.com/jquery/jquery"
     },
-    "tags": [ "前端" ]
+    "tags": [
+      "Frontend"
+    ]
   },
   {
     "title": "Easings",
@@ -681,10 +937,13 @@
     "des": "缓动函数速查表。",
     "logo": "icons/easings.svg",
     "urls": {
-      "git": "https://github.com/ai/easings.net",
+      "git": "https://github1s.com/ai/easings.net",
       "cn": "http://easings.net/zh-cn"
     },
-    "tags": [ "前端", "前端工具" ]
+    "tags": [
+      "Frontend",
+      "Frontend工具"
+    ]
   },
   {
     "title": "Require.js",
@@ -692,9 +951,11 @@
     "des": "一个JS文件和模块加载器。",
     "logo": "icons/require-logo.svg",
     "urls": {
-      "git": "https://github.com/jquery/jquery"
+      "git": "https://github1s.com/jquery/jquery"
     },
-    "tags": [ "前端" ]
+    "tags": [
+      "Frontend"
+    ]
   },
   {
     "title": "ESlint",
@@ -703,9 +964,12 @@
     "logo": "icons/eslint-logo.svg",
     "urls": {
       "cn": "http://cn.eslint.org/",
-      "git": "https://github.com/eslint/eslint"
+      "git": "https://github1s.com/eslint/eslint"
     },
-    "tags": [ "代码质量", "前端" ]
+    "tags": [
+      "代码质量",
+      "Frontend"
+    ]
   },
   {
     "title": "Prettier",
@@ -713,9 +977,12 @@
     "des": "一个有见识的代码格式化工具。",
     "logo": "icons/prettier.svg",
     "urls": {
-      "git": "https://github.com/prettier/prettier"
+      "git": "https://github1s.com/prettier/prettier"
     },
-    "tags": [ "代码质量", "前端" ]
+    "tags": [
+      "代码质量",
+      "Frontend"
+    ]
   },
   {
     "title": "StyleLint",
@@ -724,20 +991,27 @@
     "logo": "icons/stylelint.svg",
     "urls": {
       "cn": "http://stylelint.cn/",
-      "git": "https://github.com/stylelint/stylelint"
+      "git": "https://github1s.com/stylelint/stylelint"
     },
-    "tags": [ "代码质量", "前端" ]
+    "tags": [
+      "代码质量",
+      "Frontend"
+    ]
   },
   {
     "title": "Jest",
-    "website": "https://facebook.github.io/jest/",
+    "website": "https://facebook.github1s.io/jest/",
     "des": "令人愉快的 JavaScript 测试",
     "logo": "icons/jest.svg",
     "urls": {
-      "cn": "https://facebook.github.io/jest/zh-Hans/",
-      "git": "https://github.com/facebook/jest"
+      "cn": "https://facebook.github1s.io/jest/zh-Hans/",
+      "git": "https://github1s.com/facebook/jest"
     },
-    "tags": [ "代码质量", "测试工具", "前端" ]
+    "tags": [
+      "代码质量",
+      "测试工具",
+      "Frontend"
+    ]
   },
   {
     "title": "Mocha",
@@ -745,9 +1019,13 @@
     "des": "JavaScript的一种单元测试框架。",
     "logo": "icons/mocha.svg",
     "urls": {
-      "git": "https://github.com/mochajs/mocha"
+      "git": "https://github1s.com/mochajs/mocha"
     },
-    "tags": [ "代码质量", "测试工具", "前端" ]
+    "tags": [
+      "代码质量",
+      "测试工具",
+      "Frontend"
+    ]
   },
   {
     "title": "Chai",
@@ -755,29 +1033,41 @@
     "des": "BDD/TDD断言框架node.js和浏览器。",
     "logo": "icons/chai.svg",
     "urls": {
-      "git": "https://github.com/chaijs/chai"
+      "git": "https://github1s.com/chaijs/chai"
     },
-    "tags": [ "代码质量", "测试工具", "前端" ]
+    "tags": [
+      "代码质量",
+      "测试工具",
+      "Frontend"
+    ]
   },
   {
     "title": "Jasmine",
-    "website": "https://jasmine.github.io/",
+    "website": "https://jasmine.github1s.io/",
     "des": "JavaScript单元测试框架",
     "logo": "icons/jasmine.svg",
     "urls": {
-      "git": "https://github.com/jasmine/jasmine"
+      "git": "https://github1s.com/jasmine/jasmine"
     },
-    "tags": [ "代码质量", "测试工具", "前端" ]
+    "tags": [
+      "代码质量",
+      "测试工具",
+      "Frontend"
+    ]
   },
   {
     "title": "Karma",
-    "website": "http://karma-runner.github.io/",
+    "website": "http://karma-runner.github1s.io/",
     "des": "JavaScript单元测试框架",
     "logo": "icons/karma.svg",
     "urls": {
-      "git": "https://github.com/karma-runner/karma"
+      "git": "https://github1s.com/karma-runner/karma"
     },
-    "tags": [ "代码质量", "测试工具", "前端" ]
+    "tags": [
+      "代码质量",
+      "测试工具",
+      "Frontend"
+    ]
   },
   {
     "title": "Chrome Extensions",
@@ -787,7 +1077,11 @@
     "urls": {
       "cn": "http://open.chrome.360.cn/html/dev_manifest.html"
     },
-    "tags": [ "代码质量", "测试工具", "前端" ]
+    "tags": [
+      "代码质量",
+      "测试工具",
+      "Frontend"
+    ]
   },
   {
     "title": "Sass",
@@ -796,9 +1090,12 @@
     "logo": "icons/sass.svg",
     "urls": {
       "cn": "https://sass-guidelin.es/zh/",
-      "git": "https://github.com/sass/node-sass"
+      "git": "https://github1s.com/sass/node-sass"
     },
-    "tags": [ "CSS", "前端" ]
+    "tags": [
+      "CSS",
+      "Frontend"
+    ]
   },
   {
     "title": "Less",
@@ -807,9 +1104,12 @@
     "logo": "icons/less-logo.svg",
     "urls": {
       "cn": "http://lesscss.cn/",
-      "git": "https://github.com/less/less.js"
+      "git": "https://github1s.com/less/less.js"
     },
-    "tags": [ "CSS", "前端" ]
+    "tags": [
+      "CSS",
+      "Frontend"
+    ]
   },
   {
     "title": "Stylus",
@@ -818,9 +1118,12 @@
     "logo": "icons/stylus.svg",
     "urls": {
       "cn": "http://www.zhangxinxu.com/jq/stylus/",
-      "git": "https://github.com/stylus/stylus"
+      "git": "https://github1s.com/stylus/stylus"
     },
-    "tags": [ "CSS", "前端" ]
+    "tags": [
+      "CSS",
+      "Frontend"
+    ]
   },
   {
     "title": "PostCSS",
@@ -828,30 +1131,39 @@
     "des": "基于Node的CSS后处理器",
     "logo": "icons/postcss.svg",
     "urls": {
-      "git": "https://github.com/postcss/postcss"
+      "git": "https://github1s.com/postcss/postcss"
     },
-    "tags": [ "CSS", "前端" ]
+    "tags": [
+      "CSS",
+      "Frontend"
+    ]
   },
   {
     "title": "CSS Modules",
-    "website": "https://github.com/css-modules/css-modules",
+    "website": "https://github1s.com/css-modules/css-modules",
     "des": "CSS加入了局部作用域和模块依赖",
     "logo": "icons/css-modules-logo.png",
     "urls": {
       "cn": "http://graphql.cn/",
-      "git": "https://github.com/css-modules/css-modules"
+      "git": "https://github1s.com/css-modules/css-modules"
     },
-    "tags": [ "API", "前端" ]
+    "tags": [
+      "API",
+      "Frontend"
+    ]
   },
   {
     "title": "Autoprefixer",
-    "website": "https://github.com/postcss/autoprefixer",
+    "website": "https://github1s.com/postcss/autoprefixer",
     "des": "解析CSS并添加供应商前缀到规则",
     "logo": "icons/autoprefixer-logo.svg",
     "urls": {
-      "git": "https://github.com/postcss/autoprefixer"
+      "git": "https://github1s.com/postcss/autoprefixer"
     },
-    "tags": [ "API", "前端" ]
+    "tags": [
+      "API",
+      "Frontend"
+    ]
   },
   {
     "title": "GraphQL",
@@ -860,9 +1172,12 @@
     "logo": "icons/graphql.svg",
     "urls": {
       "cn": "http://graphql.cn/",
-      "git": "https://github.com/graphql"
+      "git": "https://github1s.com/graphql"
     },
-    "tags": [ "API", "后端" ]
+    "tags": [
+      "API",
+      "Backend"
+    ]
   },
   {
     "title": "Sequelize",
@@ -870,10 +1185,12 @@
     "des": "一个基于 promise 的 Node.js ORM",
     "logo": "icons/sequelize.svg",
     "urls": {
-      "git": "https://github.com/sequelize/sequelize",
-      "cn": "https://demopark.github.io/sequelize-docs-Zh-CN/"
+      "git": "https://github1s.com/sequelize/sequelize",
+      "cn": "https://demopark.github1s.io/sequelize-docs-Zh-CN/"
     },
-    "tags": [ "后端" ]
+    "tags": [
+      "Backend"
+    ]
   },
   {
     "title": "Knex.js",
@@ -881,9 +1198,11 @@
     "des": "一款开箱即用的SQL查询构造器，支持各种数据库的查询构建。",
     "logo": "icons/knex-logo.svg",
     "urls": {
-      "git": "https://github.com/tgriesser/knex"
+      "git": "https://github1s.com/tgriesser/knex"
     },
-    "tags": [ "后端" ]
+    "tags": [
+      "Backend"
+    ]
   },
   {
     "title": "Redis",
@@ -891,19 +1210,24 @@
     "des": "一个开源的使用ANSI C语言编写的内存数据库。",
     "logo": "icons/redis.svg",
     "urls": {
-      "git": "https://github.com/antirez/redis",
+      "git": "https://github1s.com/antirez/redis",
       "cn": "http://www.redis.cn/"
     },
-    "tags": [ "后端", "数据库" ]
+    "tags": [
+      "Backend",
+      "数据库"
+    ]
   },
   {
     "title": "MySQL",
     "website": "https://www.mysql.com/",
     "des": "关系型数据库管理系统",
     "logo": "icons/mysql.svg",
-    "urls": {
-    },
-    "tags": [ "后端", "数据库" ]
+    "urls": {},
+    "tags": [
+      "Backend",
+      "数据库"
+    ]
   },
   {
     "title": "MariaDB",
@@ -911,10 +1235,13 @@
     "des": "是MySQL的一个分支",
     "logo": "icons/mariadb.svg",
     "urls": {
-      "git": "https://github.com/MariaDB",
+      "git": "https://github1s.com/MariaDB",
       "cn": "https://mariadb.com/kb/zh-cn/mariadb/"
     },
-    "tags": [ "后端", "数据库" ]
+    "tags": [
+      "Backend",
+      "数据库"
+    ]
   },
   {
     "title": "mongoose",
@@ -922,11 +1249,15 @@
     "des": "异步环境中工作的MongoDB对象建模工具。",
     "logo": "icons/mongodb.svg",
     "urls": {
-      "git": "https://github.com/Automattic/mongoose",
+      "git": "https://github1s.com/Automattic/mongoose",
       "cn": "http://www.nodeclass.com/api/mongoose.html",
       "community": "https://stackoverflow.com/questions/tagged/mongoose"
     },
-    "tags": [ "服务端", "后端", "数据库" ]
+    "tags": [
+      "服务端",
+      "Backend",
+      "数据库"
+    ]
   },
   {
     "title": "MongoDB",
@@ -934,10 +1265,13 @@
     "des": "关系型数据库管理系统",
     "logo": "icons/mongodb.svg",
     "urls": {
-      "git": "https://github.com/mongodb",
+      "git": "https://github1s.com/mongodb",
       "cn": "http://www.mongodb.org.cn/"
     },
-    "tags": [ "后端", "数据库" ]
+    "tags": [
+      "Backend",
+      "数据库"
+    ]
   },
   {
     "title": "ElasticSearch",
@@ -945,17 +1279,24 @@
     "des": "一个基于分布式文件存储的数据库。",
     "logo": "icons/elasticsearch.svg",
     "urls": {
-      "git": "https://github.com/elastic/elasticsearch",
+      "git": "https://github1s.com/elastic/elasticsearch",
       "cn": "https://www.elastic.co/cn/"
     },
-    "tags": [ "后端", "数据库", "搜索引擎" ]
+    "tags": [
+      "Backend",
+      "数据库",
+      "搜索引擎"
+    ]
   },
   {
     "title": "SQLite",
     "website": "http://www.sqlite.org/",
     "des": "一款轻型的数据库",
     "logo": "icons/sqlite.svg",
-    "tags": [ "后端", "数据库" ]
+    "tags": [
+      "Backend",
+      "数据库"
+    ]
   },
   {
     "title": "PostgreSQL",
@@ -965,14 +1306,19 @@
     "urls": {
       "cn": "http://www.postgres.cn/document"
     },
-    "tags": [ "后端", "数据库" ]
+    "tags": [
+      "Backend",
+      "数据库"
+    ]
   },
   {
     "title": "Docker",
     "website": "https://docs.docker.com/",
     "des": "一个开源的应用容器引擎。",
     "logo": "icons/docker.svg",
-    "tags": [ "docker" ]
+    "tags": [
+      "docker"
+    ]
   },
   {
     "title": "WePY",
@@ -980,9 +1326,11 @@
     "des": "让小程序支持组件化开发的框架。",
     "logo": "icons/wepy.svg",
     "urls": {
-      "git": "https://github.com/Tencent/wepy"
+      "git": "https://github1s.com/Tencent/wepy"
     },
-    "tags": [ "前端" ]
+    "tags": [
+      "Frontend"
+    ]
   },
   {
     "title": "支付宝小程序",
@@ -990,9 +1338,11 @@
     "des": "是一个基于支付宝运行的程序。",
     "logo": "icons/alipay-mini-app.svg",
     "urls": {
-      "git": "https://github.com/webcoding/link"
+      "git": "https://github1s.com/webcoding/link"
     },
-    "tags": [ "前端" ]
+    "tags": [
+      "Frontend"
+    ]
   },
   {
     "title": "微信小程序",
@@ -1000,27 +1350,46 @@
     "des": "是一个基于微信运行的程序。",
     "logo": "icons/wechat-mini-app.svg",
     "urls": {
-      "git": "https://github.com/webcoding/link"
+      "git": "https://github1s.com/webcoding/link"
     },
-    "tags": [ "前端" ]
+    "tags": [
+      "Frontend"
+    ]
   },
   {
-    "title": "uni-app",
-    "website": "https://uniapp.dcloud.io",
-    "des": "是一个使用 Vue.js 开发所有前端应用的框架，编写一套代码可发布到多个平台。",
+    "title": "Python Cheatsheet",
+    "website": "https://gto76.github1s.io/python-cheatsheet/",
+    "des": "Comprehensive Python Cheatsheet by gto76",
+    "logo": "icons/gto76.png",
     "urls": {
-      "git": "https://github.com/dcloudio/uni-app"
+      "git": "https://github1s.com/gto76/python-cheatsheet"
     },
-    "tags": [ "前端" ]
+    "tags": [
+      "Cheatsheet"
+    ]
   },
   {
-    "title": "MDN Web Docs",
-    "website": "https://developer.mozilla.org",
-    "des": "面向 Web 开发者的文档。",
-    "logo": "icons/mdn.svg",
+    "title": "C++ Cheatsheet",
+    "website": "https://www.cppcheatsheet.com/",
+    "des": "Welcome to C/C++ cheatsheet!",
+    "logo": "",
     "urls": {
-      "git": "https://github.com/mdn/translated-content"
+      "git": "https://github1s.com/crazyguitar/cppcheatsheet"
     },
-    "tags": [ "前端" ]
+    "tags": [
+      "Cheatsheet"
+    ]
+  },
+  {
+    "title": "My notes",
+    "website": "https://bentleyxia.gitbook.io/notes",
+    "des": "Notes by doing",
+    "logo": "icons/mynotes.svg",
+    "urls": {
+      "git": "https://github1s.com/bentleyxia/Notes"
+    },
+    "tags": [
+      "Cheatsheet"
+    ]
   }
 ]
